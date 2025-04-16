@@ -28,11 +28,5 @@ typedef struct Graph {
     Coord size;
 } Graph;
 
-VectorVector Get_Islands(Graph board);
+VectorVector getIslands(Graph board);
 void LongestHamiltonian(FILE* file_output, Graph board);
-//create
-//free
-//dfs
-//bfs
-//get neighbours
-//size_n eulerian
